@@ -1,0 +1,28 @@
+package com.example.vhr.model;
+
+/**
+ * @author: WJZheng
+ * @date: 2020/5/2 22:30
+ * @description:
+ */
+public class Meta {
+    private Boolean keepAlive;
+
+    private Boolean requireAuth;
+
+    public Boolean getKeepAlive() {
+        return keepAlive;
+    }
+
+    public void setKeepAlive(Boolean keepAlive) {
+        this.keepAlive = keepAlive;
+    }
+
+    public Boolean getRequireAuth() {
+        return requireAuth;
+    }
+
+    public void setRequireAuth(Boolean requireAuth) {
+        this.requireAuth = requireAuth;
+    }
+}
